@@ -1,20 +1,12 @@
 
 body{
-	#background {
-	width: 100%;
-	min-height: 50px;
-	margin: none;
-	border: none;
-
-	background-image: url("/Prosthetic_Customization_Game/images/schoolhallway.jpg");
-	background-size: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-}
+  margin: 0;
+  padding: 0;
+  background: url('your-background-image.jpg') no-repeat center center fixed;
+  background-size: cover;
   font-family: 'Ubuntu', sans-serif;
+	
 }
-
-
 
 img {
       position: relative;
