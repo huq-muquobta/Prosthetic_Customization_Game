@@ -20,7 +20,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); /* Move the image back by half of its width and height */
-  height: 100%; /* Adjust the height as needed */
+  height: 1000%; /* Adjust the height as needed */
 }
 
 
