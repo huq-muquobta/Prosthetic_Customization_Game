@@ -9,10 +9,10 @@ body{
 }
 
 img {
-      position: relative;
+      position: absolute;
       margin-left: 15%;
-      display:inline-block;
-      height:100%;
+      display:inline;
+      height:50%;
 }
 
 
