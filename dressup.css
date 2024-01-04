@@ -15,12 +15,14 @@ body{
   position: relative; /* Set the container to a relative position */
 }
 
-.img {
+img {
+  max-width: 100%
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); /* Move the image back by half of its width and height */
-  height: auto; /* Adjust the height as needed */
+  height: auto;
+  width: auto;
 }
 
 
