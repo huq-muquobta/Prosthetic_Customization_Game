@@ -4,7 +4,7 @@ body{
 	width: 100%;
 	min-height: 50px;
 	margin: none;
-	border: 100px;
+	border: none;
 
 	background-image: url("/Prosthetic_Customization_Game/images/schoolhallway.jpg");
 	background-size: 100%;
