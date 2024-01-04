@@ -23,13 +23,9 @@ ul{
 	display:inline-block;
 }
 
-
-background{
-z-index: -2000;   
-}
-
 character{
-z-index: -1000;   
+z-index: -1000;  
+x-index: 100
 }
 
 .shirt{
