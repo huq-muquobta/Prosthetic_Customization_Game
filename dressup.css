@@ -17,9 +17,9 @@ body{
 
 img {
   position: absolute;
-  top: 500hv;
+  top: 50hv;
   left: 50hv;
-  transform: translate(-50hv, -50hv); /* Move the image back by half of its width and height */
+  transform: translate(-50%, -50%); /* Move the image back by half of its width and height */
   height: 75hv; /* Adjust the height as needed */
 }
 
