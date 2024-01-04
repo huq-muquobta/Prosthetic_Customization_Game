@@ -24,6 +24,10 @@ ul{
 }
 
 
+background{
+z-index: -2000;   
+}
+
 character{
 z-index: -1000;   
 }
