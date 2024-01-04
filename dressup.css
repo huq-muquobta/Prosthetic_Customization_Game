@@ -15,7 +15,7 @@ body{
   position: relative; /* Set the container to a relative position */
 }
 
-img {
+.character {
   min-width: 10%
   max-width: 100%
   position: absolute;
