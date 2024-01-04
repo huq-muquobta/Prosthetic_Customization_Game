@@ -1,9 +1,6 @@
 
 body{
-  font-family: 'Ubuntu', sans-serif;
-}
-
-#background {
+	#background {
 	width: 100%;
 	min-height: 500px;
 	margin: auto;
@@ -14,6 +11,10 @@ body{
 	background-position: center;
 	background-repeat: no-repeat;
 }
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
 
 img {
 	position: absolute;
