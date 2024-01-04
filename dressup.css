@@ -28,10 +28,6 @@ ul{
 	display:inline-block;
 }
 
-background{
-z-index: -1;  
-}
-
 character{
 z-index: 0;  
 }
