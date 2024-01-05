@@ -30,9 +30,8 @@ body{
 
 
 button {
-  border: 8px;    /* the border width */
-  
-  
+  --border: 8px;    /* the border width */
+  --color: #f6b26b;
   font-size: 35px;
   padding: 0.25em 1.2em;
   cursor: pointer;
@@ -72,7 +71,14 @@ button:active {
   transform: translate(4px,4px);
   transition: none;
 }
-
+.button-container {
+  display:grid;
+  grid-auto-flow:column;
+  grid-gap:80px;
+  place-content:end;
+  margin:0;
+  height:100vh;
+}
 .button-arm {
 	--color: #f6b26b; /* the color */
 	top: 90vh;
