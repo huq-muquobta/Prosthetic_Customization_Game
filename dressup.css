@@ -18,7 +18,7 @@ body{
   position: relative; /* Set the container to a relative position */
 }
 
-.img {
+.character, .shirt, .pant {
   max-width: 100%;
   position: absolute;
   top: 50%;
