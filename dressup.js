@@ -24,9 +24,8 @@ function ImageSwitcher(choices, i) {
 	}
 }
   
-    var pants = $(".pant");
+	var pants = $(".pant");
 	var shirts = $(".shirt");
-	var backgrounds = $(".bg");
 
 	var shirt_picker = new ImageSwitcher(shirts);
 	document.getElementById("shirt_button").onclick = function() { shirt_picker.Next(); };
@@ -34,9 +33,6 @@ function ImageSwitcher(choices, i) {
 	var pants_picker = new ImageSwitcher(pants);
 	document.getElementById("pant_button").onclick = function() {pants_picker.Next(); };
 	
-	var bg_picker = new ImageSwitcher(backgrounds);
-	document.getElementById("bg_button").onclick = function() {bg_picker.Next(); };
-
 });
 
   $("#shirt_button").click(function(){
