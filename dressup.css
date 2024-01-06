@@ -54,14 +54,13 @@ button:active {
   color: #fff;
 }
 
-body {
+.button-container {
   height: 100vh;
   margin: 0;
   display: grid;
   grid-template-columns: auto auto;
   gap: 20px;
   place-content: center;
-  background: #DAEDFB;
 }
 button {
   font-family: system-ui, sans-serif;
