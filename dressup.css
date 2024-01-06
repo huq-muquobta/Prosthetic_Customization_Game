@@ -58,9 +58,8 @@ button:active {
   height: 100vh;
   margin: 0;
   display: grid;
-  grid-template-columns: auto auto;
   gap: 20px;
-  place-content: center;
+  place-content: start;
 }
 button {
   font-family: system-ui, sans-serif;
